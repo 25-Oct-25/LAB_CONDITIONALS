@@ -4,7 +4,6 @@ rating = 3
 
 popularityScore = 72.65
 
-
 if rating >= 4 and popularityScore > 80:
     print("Highly recommended")
 
