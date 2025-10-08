@@ -13,7 +13,7 @@ def calculatesBMI ():
     # Will print an error massge and ratern to the same calculater
     if wieght <= 0.0 or hight <= 0.0 :
         print("Please Enter a vaild wight and hight")
-        calculatesBMI()
+        return calculatesBMI()
 
     # Calculates the BMI    
     bmi = ( wieght / (hight ** 2) )

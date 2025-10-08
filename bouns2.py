@@ -10,7 +10,7 @@ def checkUserName():
     
     if lengthName <= 2 :
         print("the name length must be more than 2 characters, please provide a valid name.")
-        checkUserName() # if user doesn't put a name correct he will stack  
+        return checkUserName() # if user doesn't put a name correct he will stack  
         
     print("Your user name is vaild")
     return userName
@@ -29,9 +29,9 @@ def checkUserEmail():
     # To git @ and 'gmail'
     # userEmail[checkEmail:checkEmail+]
 
-    if userEmail[checkEmail:checkEmail+6] != "@gmail" :
+    if userEmail[checkEmail:] != "@gmail.com" :
         print("the email is not valid , please provide a valid email .")
-        checkUserEmail() # if user doesn't put a email correct he will stack 
+        return checkUserEmail() # if user doesn't put a email correct he will stack 
 
     print("Your email is vaild")
     return userEmail

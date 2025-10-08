@@ -13,5 +13,5 @@ elif rating >= 3 and popularity >= 70 :
 elif rating >= 2 and popularity >= 60 :
     print("You should check it out!")
     print(f"Move name : {move} \nMove rating : {rating} Out of 5 \nMove popularity : % {popularity}")
-else:
+elif rating < 2 and popularity < 50 :
     print("Don't watch it. It is a waste of time")
