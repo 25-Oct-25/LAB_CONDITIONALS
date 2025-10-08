@@ -3,13 +3,15 @@
 
 
 name= input("Enter your name: ")
-email= input("Enter your email: ")
+email= input("Enter your email: ").lower()
 
-if len(name) <=2 and "gmail.com" not in email:
+
+if len(name) <=2 and not email.endswith("@gmail.com") or email.count("@")!=1 or " " in email or email.startswith(".") or email.startswith("@"):
     print("Both name and email invalid, please try again.")
 elif len(name) <=2 :
     print("the name length must be more than 2 characters, please provide a valid name.")
-elif "gmail.com" not in email:
+elif not email.endswith("@gmail.com") or email.count("@")!=1 or " " in email or email.startswith(".") or email.startswith("@"):
      print("the email is not valid , please provide a valid email.")
 else:
     print(f"welcome {name}, you registered with the email {email}!")
+    
