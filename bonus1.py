@@ -1,3 +1,6 @@
+##نواف البريكان
+
+
 weight = int(input("Enter your weight in Kg: "))
 height = float(input("Enter your height in m: "))
 BMI = weight/(height*height)
