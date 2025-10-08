@@ -19,4 +19,3 @@ if flag:
 else:
     print("the email is not valid , please provide a valid email .")
 
-print(gmail)
