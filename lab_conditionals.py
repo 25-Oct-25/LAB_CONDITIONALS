@@ -1,4 +1,4 @@
-movie = "Taken"
+movie = "Hijack 1971"
 
 rating = 3
 
