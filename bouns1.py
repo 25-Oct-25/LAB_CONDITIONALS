@@ -4,8 +4,7 @@ def calculatesBMI ():
     
     print("Calculates the BMI")
 
-    # You must be enter a float number 
-    # or printing an error masseg 
+    # I make an input is float bc the number of hight and wight is : ("1.77 m , 56.55 kg") 
     wieght = float(input("Enter your wieght in kilograms (kg): ")) 
     hight = float(input("Enter your hight in meters (m) : "))
 
