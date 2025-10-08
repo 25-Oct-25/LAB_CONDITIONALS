@@ -13,7 +13,7 @@ elif not name[0].isalpha():
     print("The name must start with a letter.")
 
 elif  "*" in name or "&" in name or "%" in name or "#" in name or "@"  in name:
-    print("The name cannot contain *, &, % ,or # characters.")
+    print("The name cannot contain *, &, % , @ ,or # characters.")
 
 elif not email:
     print("Email cannot be empty.")
